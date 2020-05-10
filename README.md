@@ -10,7 +10,7 @@ This project uses Python 3.8 and will most likely be incompatible with previous 
 After cloning the repo and changing into the directory, use `pyenv local 3.8.x` (where x is whatever version you have) to set the python version for the directory to be `3.8.x`. Then use `python -m venv x` (where x is the name of your virtual environment) to create your virtual environment and then activate it. Next, if Poetry is not already installed, you will need to install it. Then run `poetry install`. Finally, run the tests to make sure everything is working as expected. Great, now you're ready to develop!
 
 ### Formatting and code style
-This project uses the black formatter with line length set to 99 and string normalization turned off. We generally use single quotes, except in docstrings and strings that are meant to be outputted, for example, logging and exceptions. Note that developers need not manually run the formatter on their code if they run `pre-commit install` to set up the git pre-commit hook that will automatically format the code before committing.
+This project uses the black ormatter with line length set to 99 and string normalization turned off. We generally use single quotes, except in docstrings and strings that are meant to be outputted, for example, logging and exceptions.
 
 ### Committing changes
 Read [this](https://chris.beams.io/posts/git-commit/) before committing anything.
